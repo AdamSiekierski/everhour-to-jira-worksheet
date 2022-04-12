@@ -1,0 +1,16 @@
+{
+  "name": "everhour_to_timeshit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "everhour_to_timeshit.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.0.5",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}

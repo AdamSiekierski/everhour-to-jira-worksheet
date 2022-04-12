@@ -1,0 +1,6 @@
+node_modules/
+.vscode/
+.idea/
+everhour.csv
+output.csv
+.DS_Store
