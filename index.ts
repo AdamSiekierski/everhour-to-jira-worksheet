@@ -10,11 +10,7 @@ const getTaskKey = (task: string[]) => {
   return splitTaskName[splitTaskName.length - 1];
 };
 
-const getTaskTimeSpent = (task: string[]) => {
-  const timeString = task[1];
-
-  return `${timeString}h`;
-};
+const getTaskTimeSpent = (task: string[]) => `${task[1]}h`;
 
 const getTaskDateStarted = (task: string[]) => `${task[2]} 00:00:00Z`;
 
